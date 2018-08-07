@@ -41,3 +41,24 @@ class ClassifierNet(nn.Module):
         x = F.dropout(x)
         x = F.relu(self.fc2(x))
         return x
+        
+# Discriminator
+class Discriminator(nn.Module):
+    def __init__(self):
+        super(Discriminator, self).__init__()
+        self.fc1 = nn.Linear(128, 128)
+        self.fc2 = nn.Linear(128, 128)
+        self.fc3 = nn.Linear(128, 1)
+        self.dOut1 = nn.Dropout(p=0.5)
+        self.dOut2 = nn.Dropout(p=0.5)
+
+    def forward(self, x):
+        x = self.fc1(x)
+        x = F.relu(x)
+        x = self.dOut1(x)
+        x = self.fc2(x)
+        x = F.relu(x)
+        x = self.dOut2(x)
+        x = self.fc3(x)
+        x = F.tanh(x)
+        return x
