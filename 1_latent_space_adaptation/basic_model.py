@@ -44,5 +44,7 @@ if load_classify_net:
 
 # Train on synthetin data
 feature_net_train(feature_net, classify_net, syn_data_loader, num_epochs = num_epochs, batch_size = batch_size)
+feature_net_train(feature_net, classify_net, syn_data_loader, num_epochs = num_epochs, batch_size = batch_size, lr = 0.0001)
 
 gan_train_domain_adapt(gen_net, dis_net, classify_net, real_data_loader, syn_data_loader, num_epochs = num_epochs, batch_size = batch_size)
+gan_train_domain_adapt(gen_net, dis_net, classify_net, real_data_loader, syn_data_loader, num_epochs = num_epochs, batch_size = batch_size, lr = 0.0001)

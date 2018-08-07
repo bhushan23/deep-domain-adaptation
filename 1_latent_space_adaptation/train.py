@@ -40,8 +40,8 @@ def feature_net_train(f_net, c_net, train_data, lr = 0.001, batch_size = 64, num
 
         print('Epoch:', epoch, 'Total Loss:', total_loss.cpu().data[0], 'Last batch Loss:', loss.cpu().data[0])
         if epoch+1 % 50 == 0:
-            torch.save(f_net.state_dict(), output_path+'saved_models/f_net_'+str(epoch/100)+'.pkl')
-            torch.save(c_net.state_dict(), output_path+'saved_models/l_net_'+str(epoch/100)+'.pkl')
+            #torch.save(f_net.state_dict(), output_path+'saved_models/f_net_'+str(epoch/100)+'.pkl')
+            #torch.save(c_net.state_dict(), output_path+'saved_models/l_net_'+str(epoch/100)+'.pkl')
             torch.save(f_net.state_dict(), output_path+'saved_models/f_net.pkl')
             torch.save(c_net.state_dict(), output_path+'saved_models/l_net.pkl')
 
@@ -60,7 +60,7 @@ def feature_net_train(f_net, c_net, train_data, lr = 0.001, batch_size = 64, num
 def gan_train_domain_adapt(gen_net, dis_net, classify_net, real_data_loader, syn_data_loader, num_epochs = 10, batch_size = 64, lr = 0.001):
     g_opt = torch.opt.Adam(gen_net.parameters(), lr = lr)
     d_opt = torch.opt.Adam(dis_net.parameters(), lr = lr)
-    last_index = 20 #int(len(train_data.dataset) / batch_size)
+    last_index = int(len(train_data.dataset) / batch_size)
     for epoch in range(0, num_epochs):
         i = 0
         g_loss_total = 0
