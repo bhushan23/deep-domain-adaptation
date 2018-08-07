@@ -56,3 +56,6 @@ def feature_net_train(f_net, c_net, train_data, lr = 0.001, batch_size = 64, num
             # predicted = torch.LongTensor(predicted)
             accuracy = ((predicted == l).sum()) * 100 / mini_batch_size    
             print('Epoch:', epoch, 'Accuracy:', accuracy.cpu())
+
+
+
