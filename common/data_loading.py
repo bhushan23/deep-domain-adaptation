@@ -17,28 +17,51 @@ def my_collate(batch):
 class Custom_DataLoader(Dataset):
     def __init__(self, root_dir, labels, transform = None):
         self.root_dir = root_dir
-        self.annotations = pd.read_csv(labels, sep=' ', header=None, names=['Class', 'Label'])
+        annotations = pd.read_csv(labels, sep=' ', header=None, names=['Class', 'Label'])
+        self.images = annotations['Class'].tolist()
+        self.labels = annotations['Label'].tolist()
         self.transform = transform
 
     def __getitem__(self, index):
-        image_name = os.path.join(self.root_dir, self.annotations['Class'][index])
+        image_name = os.path.join(self.root_dir, self.images[index])
         image = Image.open(image_name)
-        
+        image = image.convert('RGB')
         if self.transform:
             image = self.transform(image)
-        label = self.annotations['Label'][index]
+        label = self.labels[index]
         return image, label
 
     def __len__(self):
-        return len(self.annotations)
+        return len(self.labels)
 
-def load_syn2real_data(path, label_file, shuffle = True, batch_size = 64):
+class Custom_Test_DataLoader(Dataset):
+    def __init__(self, root_dir, labels, transform = None):
+        self.root_dir = root_dir
+        annotations = pd.read_csv(labels, header=None, names=['Class'])
+        self.images = annotations['Class'].tolist()
+        self.transform = transform
+
+    def __getitem__(self, index):
+        image_name = os.path.join(self.root_dir, self.images[index])
+        image = Image.open(image_name)
+        image = image.convert('RGB')
+        if self.transform:
+            image = self.transform(image)
+        return image
+
+    def __len__(self):
+        return len(self.labels)
+
+def load_syn2real_data(path, label_file = None, shuffle = True, batch_size = 64):
     transform = transforms.Compose([
                 transforms.Resize((64, 64)),       
                 transforms.ToTensor(),
                 transforms.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5))
                 ])
-    data = Custom_DataLoader(path, label_file, transform)
+    if label_file != None:
+        data = Custom_DataLoader(path, label_file, transform)
+    else:
+        data = Custom_Test_DataLoader(path, label_file, transform)
     data_loader = DataLoader(data, shuffle = shuffle, batch_size = batch_size)
     
     return data_loader 

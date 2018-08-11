@@ -1,202 +1,404 @@
-Epoch: 0 Total Loss: tensor(3993.3035) Last batch Loss: tensor(1.9556)
-Epoch: 0 Accuracy: tensor(56)
-Epoch: 1 Total Loss: tensor(3643.5483) Last batch Loss: tensor(1.5751)
-Epoch: 1 Accuracy: tensor(67)
-Epoch: 2 Total Loss: tensor(3536.5703) Last batch Loss: tensor(1.8776)
-Epoch: 2 Accuracy: tensor(54)
-Epoch: 3 Total Loss: tensor(3468.1367) Last batch Loss: tensor(1.4957)
-Epoch: 3 Accuracy: tensor(43)
-Epoch: 4 Total Loss: tensor(3332.9287) Last batch Loss: tensor(1.4189)
+Epoch: 0 Total Loss: 21.502199172973633 Last batch Loss: 2.146087408065796
+Epoch: 0 Accuracy: tensor(42)
+Epoch: 1 Total Loss: 18.974365234375 Last batch Loss: 1.981539249420166
+Epoch: 1 Accuracy: tensor(51)
+Epoch: 2 Total Loss: 17.871868133544922 Last batch Loss: 1.9462794065475464
+Epoch: 2 Accuracy: tensor(40)
+Epoch: 3 Total Loss: 17.721529006958008 Last batch Loss: 1.7896876335144043
+Epoch: 3 Accuracy: tensor(50)
+Epoch: 4 Total Loss: 18.099702835083008 Last batch Loss: 1.9763013124465942
+Epoch: 4 Accuracy: tensor(45)
+Epoch: 5 Total Loss: 18.517831802368164 Last batch Loss: 1.9067288637161255
+Epoch: 5 Accuracy: tensor(54)
+Epoch: 6 Total Loss: 18.37462043762207 Last batch Loss: 2.074302911758423
+Epoch: 6 Accuracy: tensor(53)
+Epoch: 7 Total Loss: 18.71735382080078 Last batch Loss: 2.332720994949341
+Epoch: 7 Accuracy: tensor(45)
+Epoch: 8 Total Loss: 17.747407913208008 Last batch Loss: 1.8171180486679077
+Epoch: 8 Accuracy: tensor(45)
+Epoch: 9 Total Loss: 17.845294952392578 Last batch Loss: 2.187333822250366
+Epoch: 9 Accuracy: tensor(45)
+Epoch: 10 Total Loss: 17.499540328979492 Last batch Loss: 2.2850003242492676
+Epoch: 10 Accuracy: tensor(43)
+Epoch: 11 Total Loss: 17.8488826751709 Last batch Loss: 2.006129741668701
+Epoch: 11 Accuracy: tensor(37)
+Epoch: 12 Total Loss: 17.832427978515625 Last batch Loss: 1.9297369718551636
+Epoch: 12 Accuracy: tensor(50)
+Epoch: 13 Total Loss: 17.68602752685547 Last batch Loss: 1.6225695610046387
+Epoch: 13 Accuracy: tensor(37)
+Epoch: 14 Total Loss: 17.63288116455078 Last batch Loss: 1.980440616607666
+Epoch: 14 Accuracy: tensor(45)
+Epoch: 15 Total Loss: 17.85633659362793 Last batch Loss: 1.890211820602417
+Epoch: 15 Accuracy: tensor(51)
+Epoch: 16 Total Loss: 17.525531768798828 Last batch Loss: 2.0870580673217773
+Epoch: 16 Accuracy: tensor(35)
+Epoch: 17 Total Loss: 16.651683807373047 Last batch Loss: 2.1039466857910156
+Epoch: 17 Accuracy: tensor(31)
+Epoch: 18 Total Loss: 17.922636032104492 Last batch Loss: 1.9116215705871582
+Epoch: 18 Accuracy: tensor(57)
+Epoch: 19 Total Loss: 16.69942283630371 Last batch Loss: 1.986946940422058
+Epoch: 19 Accuracy: tensor(39)
+Epoch: 20 Total Loss: 17.86795997619629 Last batch Loss: 1.7954121828079224
+Epoch: 20 Accuracy: tensor(46)
+Epoch: 21 Total Loss: 17.711322784423828 Last batch Loss: 1.9694700241088867
+Epoch: 21 Accuracy: tensor(40)
+Epoch: 22 Total Loss: 17.714229583740234 Last batch Loss: 2.009289264678955
+Epoch: 22 Accuracy: tensor(42)
+Epoch: 23 Total Loss: 16.87259864807129 Last batch Loss: 1.7841465473175049
+Epoch: 23 Accuracy: tensor(48)
+Epoch: 24 Total Loss: 16.103700637817383 Last batch Loss: 1.6068711280822754
+Epoch: 24 Accuracy: tensor(32)
+Epoch: 25 Total Loss: 17.338571548461914 Last batch Loss: 1.90247642993927
+Epoch: 25 Accuracy: tensor(48)
+Epoch: 26 Total Loss: 16.765987396240234 Last batch Loss: 1.8497035503387451
+Epoch: 26 Accuracy: tensor(35)
+Epoch: 27 Total Loss: 17.158166885375977 Last batch Loss: 1.7807778120040894
+Epoch: 27 Accuracy: tensor(56)
+Epoch: 28 Total Loss: 17.812448501586914 Last batch Loss: 1.9342503547668457
+Epoch: 28 Accuracy: tensor(43)
+Epoch: 29 Total Loss: 16.99205780029297 Last batch Loss: 1.8256404399871826
+Epoch: 29 Accuracy: tensor(53)
+Epoch: 30 Total Loss: 18.283607482910156 Last batch Loss: 2.2772297859191895
+Epoch: 30 Accuracy: tensor(50)
+Epoch: 31 Total Loss: 17.16057777404785 Last batch Loss: 1.8068668842315674
+Epoch: 31 Accuracy: tensor(43)
+Epoch: 32 Total Loss: 17.118499755859375 Last batch Loss: 2.0408153533935547
+Epoch: 32 Accuracy: tensor(54)
+Epoch: 33 Total Loss: 17.833816528320312 Last batch Loss: 2.0372726917266846
+Epoch: 33 Accuracy: tensor(37)
+Epoch: 34 Total Loss: 17.19612693786621 Last batch Loss: 1.9804943799972534
+Epoch: 34 Accuracy: tensor(39)
+Epoch: 35 Total Loss: 16.784013748168945 Last batch Loss: 1.7911070585250854
+Epoch: 35 Accuracy: tensor(48)
+Epoch: 36 Total Loss: 16.4154109954834 Last batch Loss: 1.5332622528076172
+Epoch: 36 Accuracy: tensor(48)
+Epoch: 37 Total Loss: 17.385704040527344 Last batch Loss: 2.264055013656616
+Epoch: 37 Accuracy: tensor(43)
+Epoch: 38 Total Loss: 16.647661209106445 Last batch Loss: 1.9059481620788574
+Epoch: 38 Accuracy: tensor(48)
+Epoch: 39 Total Loss: 16.341997146606445 Last batch Loss: 1.7167925834655762
+Epoch: 39 Accuracy: tensor(40)
+Epoch: 40 Total Loss: 16.567197799682617 Last batch Loss: 1.9233150482177734
+Epoch: 40 Accuracy: tensor(51)
+Epoch: 41 Total Loss: 17.05360984802246 Last batch Loss: 2.0072453022003174
+Epoch: 41 Accuracy: tensor(34)
+Epoch: 42 Total Loss: 16.150115966796875 Last batch Loss: 1.5775443315505981
+Epoch: 42 Accuracy: tensor(54)
+Epoch: 43 Total Loss: 16.995643615722656 Last batch Loss: 1.9678319692611694
+Epoch: 43 Accuracy: tensor(50)
+Epoch: 44 Total Loss: 17.09168243408203 Last batch Loss: 1.851825475692749
+Epoch: 44 Accuracy: tensor(50)
+Epoch: 45 Total Loss: 16.94057846069336 Last batch Loss: 1.7806352376937866
+Epoch: 45 Accuracy: tensor(46)
+Epoch: 46 Total Loss: 17.178173065185547 Last batch Loss: 1.7050490379333496
+Epoch: 46 Accuracy: tensor(37)
+Epoch: 47 Total Loss: 16.567846298217773 Last batch Loss: 1.6264394521713257
+Epoch: 47 Accuracy: tensor(45)
+Epoch: 48 Total Loss: 15.82204818725586 Last batch Loss: 1.7344342470169067
+Epoch: 48 Accuracy: tensor(51)
+Epoch: 49 Total Loss: 15.969724655151367 Last batch Loss: 1.8143326044082642
+Epoch: 49 Accuracy: tensor(46)
+Epoch: 50 Total Loss: 16.35578727722168 Last batch Loss: 1.7233949899673462
+Epoch: 50 Accuracy: tensor(48)
+Epoch: 51 Total Loss: 16.85797119140625 Last batch Loss: 1.8885478973388672
+Epoch: 51 Accuracy: tensor(48)
+Epoch: 52 Total Loss: 17.040828704833984 Last batch Loss: 1.9057550430297852
+Epoch: 52 Accuracy: tensor(50)
+Epoch: 53 Total Loss: 17.190433502197266 Last batch Loss: 1.851576805114746
+Epoch: 53 Accuracy: tensor(35)
+Epoch: 54 Total Loss: 16.90717315673828 Last batch Loss: 2.0211925506591797
+Epoch: 54 Accuracy: tensor(48)
+Epoch: 55 Total Loss: 16.98448371887207 Last batch Loss: 1.9982012510299683
+Epoch: 55 Accuracy: tensor(40)
+Epoch: 56 Total Loss: 16.961835861206055 Last batch Loss: 2.016986608505249
+Epoch: 56 Accuracy: tensor(50)
+Epoch: 57 Total Loss: 16.906707763671875 Last batch Loss: 1.8071749210357666
+Epoch: 57 Accuracy: tensor(46)
+Epoch: 58 Total Loss: 16.727190017700195 Last batch Loss: 1.587227463722229
+Epoch: 58 Accuracy: tensor(39)
+Epoch: 59 Total Loss: 16.417207717895508 Last batch Loss: 1.9868742227554321
+Epoch: 59 Accuracy: tensor(51)
+Epoch: 60 Total Loss: 17.48680305480957 Last batch Loss: 1.9063576459884644
+Epoch: 60 Accuracy: tensor(56)
+Epoch: 61 Total Loss: 16.79460906982422 Last batch Loss: 1.8713593482971191
+Epoch: 61 Accuracy: tensor(43)
+Epoch: 62 Total Loss: 16.14987564086914 Last batch Loss: 1.8463521003723145
+Epoch: 62 Accuracy: tensor(46)
+Epoch: 63 Total Loss: 17.499980926513672 Last batch Loss: 1.847855567932129
+Epoch: 63 Accuracy: tensor(50)
+Epoch: 64 Total Loss: 17.052331924438477 Last batch Loss: 1.9016361236572266
+Epoch: 64 Accuracy: tensor(51)
+Epoch: 65 Total Loss: 16.44536590576172 Last batch Loss: 1.6936460733413696
+Epoch: 65 Accuracy: tensor(48)
+Epoch: 66 Total Loss: 16.79161262512207 Last batch Loss: 1.8671869039535522
+Epoch: 66 Accuracy: tensor(50)
+Epoch: 67 Total Loss: 16.250171661376953 Last batch Loss: 1.5072351694107056
+Epoch: 67 Accuracy: tensor(40)
+Epoch: 68 Total Loss: 16.27267837524414 Last batch Loss: 1.865892767906189
+Epoch: 68 Accuracy: tensor(48)
+Epoch: 69 Total Loss: 16.819087982177734 Last batch Loss: 1.9673335552215576
+Epoch: 69 Accuracy: tensor(46)
+Epoch: 70 Total Loss: 16.152013778686523 Last batch Loss: 1.7446215152740479
+Epoch: 70 Accuracy: tensor(46)
+Epoch: 71 Total Loss: 15.870211601257324 Last batch Loss: 1.8766062259674072
+Epoch: 71 Accuracy: tensor(40)
+Epoch: 72 Total Loss: 16.811168670654297 Last batch Loss: 1.8690191507339478
+Epoch: 72 Accuracy: tensor(51)
+Epoch: 73 Total Loss: 16.17850112915039 Last batch Loss: 1.738215446472168
+Epoch: 73 Accuracy: tensor(43)
+Epoch: 74 Total Loss: 16.401700973510742 Last batch Loss: 1.7566635608673096
+Epoch: 74 Accuracy: tensor(48)
+Epoch: 75 Total Loss: 16.843700408935547 Last batch Loss: 1.735567569732666
+Epoch: 75 Accuracy: tensor(53)
+Epoch: 76 Total Loss: 16.761919021606445 Last batch Loss: 1.9151679277420044
+Epoch: 76 Accuracy: tensor(56)
+Epoch: 77 Total Loss: 16.394906997680664 Last batch Loss: 1.8618067502975464
+Epoch: 77 Accuracy: tensor(45)
+Epoch: 78 Total Loss: 16.32704734802246 Last batch Loss: 1.7384650707244873
+Epoch: 78 Accuracy: tensor(46)
+Epoch: 79 Total Loss: 16.71927833557129 Last batch Loss: 1.6580346822738647
+Epoch: 79 Accuracy: tensor(48)
+Epoch: 80 Total Loss: 15.921140670776367 Last batch Loss: 1.8119852542877197
+Epoch: 80 Accuracy: tensor(45)
+Epoch: 81 Total Loss: 15.892342567443848 Last batch Loss: 1.7532068490982056
+Epoch: 81 Accuracy: tensor(45)
+Epoch: 82 Total Loss: 16.4606876373291 Last batch Loss: 1.7579991817474365
+Epoch: 82 Accuracy: tensor(43)
+Epoch: 83 Total Loss: 16.018314361572266 Last batch Loss: 1.693441390991211
+Epoch: 83 Accuracy: tensor(48)
+Epoch: 84 Total Loss: 16.92081642150879 Last batch Loss: 1.9828749895095825
+Epoch: 84 Accuracy: tensor(42)
+Epoch: 85 Total Loss: 16.598127365112305 Last batch Loss: 2.047091007232666
+Epoch: 85 Accuracy: tensor(51)
+Epoch: 86 Total Loss: 17.211421966552734 Last batch Loss: 2.1475236415863037
+Epoch: 86 Accuracy: tensor(54)
+Epoch: 87 Total Loss: 16.400299072265625 Last batch Loss: 1.6546225547790527
+Epoch: 87 Accuracy: tensor(62)
+Epoch: 88 Total Loss: 15.382442474365234 Last batch Loss: 1.7018120288848877
+Epoch: 88 Accuracy: tensor(50)
+Epoch: 89 Total Loss: 16.414308547973633 Last batch Loss: 1.8802798986434937
+Epoch: 89 Accuracy: tensor(45)
+Epoch: 90 Total Loss: 16.523515701293945 Last batch Loss: 1.8709497451782227
+Epoch: 90 Accuracy: tensor(37)
+Epoch: 91 Total Loss: 16.85516357421875 Last batch Loss: 1.6550666093826294
+Epoch: 91 Accuracy: tensor(50)
+Epoch: 92 Total Loss: 16.466981887817383 Last batch Loss: 1.7647862434387207
+Epoch: 92 Accuracy: tensor(46)
+Epoch: 93 Total Loss: 16.202590942382812 Last batch Loss: 1.8700809478759766
+Epoch: 93 Accuracy: tensor(54)
+Epoch: 94 Total Loss: 16.572805404663086 Last batch Loss: 1.7461909055709839
+Epoch: 94 Accuracy: tensor(43)
+Epoch: 95 Total Loss: 16.07860565185547 Last batch Loss: 1.8793954849243164
+Epoch: 95 Accuracy: tensor(40)
+Epoch: 96 Total Loss: 16.20298194885254 Last batch Loss: 1.8043828010559082
+Epoch: 96 Accuracy: tensor(46)
+Epoch: 97 Total Loss: 16.307918548583984 Last batch Loss: 1.9135243892669678
+Epoch: 97 Accuracy: tensor(46)
+Epoch: 98 Total Loss: 16.11769676208496 Last batch Loss: 1.9380173683166504
+Epoch: 98 Accuracy: tensor(56)
+Epoch: 99 Total Loss: 16.468914031982422 Last batch Loss: 2.4415905475616455
+Epoch: 99 Accuracy: tensor(57)
+Epoch: 100 Total Loss: 16.21288299560547 Last batch Loss: 1.5372730493545532
+Epoch: 100 Accuracy: tensor(50)
+Epoch: 0 Total Loss: 16.04168701171875 Last batch Loss: 1.960817575454712
+Epoch: 0 Accuracy: tensor(50)
+Epoch: 1 Total Loss: 16.439607620239258 Last batch Loss: 1.871334433555603
+Epoch: 1 Accuracy: tensor(35)
+Epoch: 2 Total Loss: 16.02881622314453 Last batch Loss: 1.7455722093582153
+Epoch: 2 Accuracy: tensor(51)
+Epoch: 3 Total Loss: 15.684587478637695 Last batch Loss: 1.6491107940673828
+Epoch: 3 Accuracy: tensor(57)
+Epoch: 4 Total Loss: 16.881044387817383 Last batch Loss: 1.8862206935882568
 Epoch: 4 Accuracy: tensor(48)
-Epoch: 5 Total Loss: tensor(3200.2114) Last batch Loss: tensor(1.4487)
-Epoch: 5 Accuracy: tensor(53)
-Epoch: 6 Total Loss: tensor(3152.4319) Last batch Loss: tensor(1.2469)
-Epoch: 6 Accuracy: tensor(60)
-Epoch: 7 Total Loss: tensor(3116.8186) Last batch Loss: tensor(1.3904)
-Epoch: 7 Accuracy: tensor(56)
-Epoch: 8 Total Loss: tensor(3092.2922) Last batch Loss: tensor(1.4532)
-Epoch: 8 Accuracy: tensor(57)
-Epoch: 9 Total Loss: tensor(3068.2412) Last batch Loss: tensor(1.3728)
-Epoch: 9 Accuracy: tensor(51)
-Epoch: 10 Total Loss: tensor(3044.0293) Last batch Loss: tensor(1.5703)
-Epoch: 10 Accuracy: tensor(50)
-Epoch: 11 Total Loss: tensor(3017.4004) Last batch Loss: tensor(1.4471)
-Epoch: 11 Accuracy: tensor(56)
-Epoch: 12 Total Loss: tensor(2846.8286) Last batch Loss: tensor(1.2416)
-Epoch: 12 Accuracy: tensor(68)
-Epoch: 13 Total Loss: tensor(2821.7288) Last batch Loss: tensor(1.1057)
-Epoch: 13 Accuracy: tensor(68)
-Epoch: 14 Total Loss: tensor(2802.3176) Last batch Loss: tensor(1.2900)
-Epoch: 14 Accuracy: tensor(54)
-Epoch: 15 Total Loss: tensor(2787.1687) Last batch Loss: tensor(0.9406)
-Epoch: 15 Accuracy: tensor(62)
-Epoch: 16 Total Loss: tensor(2772.7021) Last batch Loss: tensor(1.4104)
-Epoch: 16 Accuracy: tensor(53)
-Epoch: 17 Total Loss: tensor(2763.9299) Last batch Loss: tensor(1.1508)
-Epoch: 17 Accuracy: tensor(51)
-Epoch: 18 Total Loss: tensor(2753.2483) Last batch Loss: tensor(1.4964)
-Epoch: 18 Accuracy: tensor(62)
-Epoch: 19 Total Loss: tensor(2739.0122) Last batch Loss: tensor(1.2444)
-Epoch: 19 Accuracy: tensor(73)
-Epoch: 20 Total Loss: tensor(2728.0774) Last batch Loss: tensor(1.3261)
-Epoch: 20 Accuracy: tensor(48)
-Epoch: 21 Total Loss: tensor(2719.9146) Last batch Loss: tensor(1.3885)
-Epoch: 21 Accuracy: tensor(67)
-Epoch: 22 Total Loss: tensor(2709.5283) Last batch Loss: tensor(1.1014)
-Epoch: 22 Accuracy: tensor(57)
-Epoch: 23 Total Loss: tensor(2702.5000) Last batch Loss: tensor(1.1077)
-Epoch: 23 Accuracy: tensor(59)
-Epoch: 24 Total Loss: tensor(2695.6743) Last batch Loss: tensor(1.3605)
-Epoch: 24 Accuracy: tensor(57)
-Epoch: 25 Total Loss: tensor(2688.8645) Last batch Loss: tensor(1.1039)
-Epoch: 25 Accuracy: tensor(54)
-Epoch: 26 Total Loss: tensor(2683.6753) Last batch Loss: tensor(1.1646)
-Epoch: 26 Accuracy: tensor(62)
-Epoch: 27 Total Loss: tensor(2675.1057) Last batch Loss: tensor(1.2478)
-Epoch: 27 Accuracy: tensor(59)
-Epoch: 28 Total Loss: tensor(2671.9810) Last batch Loss: tensor(1.4462)
+Epoch: 5 Total Loss: 15.116395950317383 Last batch Loss: 1.7810168266296387
+Epoch: 5 Accuracy: tensor(50)
+Epoch: 6 Total Loss: 15.336676597595215 Last batch Loss: 1.8162580728530884
+Epoch: 6 Accuracy: tensor(50)
+Epoch: 7 Total Loss: 15.382879257202148 Last batch Loss: 1.9294190406799316
+Epoch: 7 Accuracy: tensor(53)
+Epoch: 8 Total Loss: 15.983699798583984 Last batch Loss: 1.3847781419754028
+Epoch: 8 Accuracy: tensor(54)
+Epoch: 9 Total Loss: 16.1900634765625 Last batch Loss: 1.9090919494628906
+Epoch: 9 Accuracy: tensor(53)
+Epoch: 10 Total Loss: 15.656196594238281 Last batch Loss: 1.9252099990844727
+Epoch: 10 Accuracy: tensor(51)
+Epoch: 11 Total Loss: 15.301750183105469 Last batch Loss: 1.6424840688705444
+Epoch: 11 Accuracy: tensor(51)
+Epoch: 12 Total Loss: 16.258621215820312 Last batch Loss: 1.6491708755493164
+Epoch: 12 Accuracy: tensor(40)
+Epoch: 13 Total Loss: 15.442779541015625 Last batch Loss: 1.4538644552230835
+Epoch: 13 Accuracy: tensor(53)
+Epoch: 14 Total Loss: 16.01556968688965 Last batch Loss: 1.601986050605774
+Epoch: 14 Accuracy: tensor(46)
+Epoch: 15 Total Loss: 15.80419635772705 Last batch Loss: 2.0138673782348633
+Epoch: 15 Accuracy: tensor(48)
+Epoch: 16 Total Loss: 15.660059928894043 Last batch Loss: 1.8998138904571533
+Epoch: 16 Accuracy: tensor(40)
+Epoch: 17 Total Loss: 15.516120910644531 Last batch Loss: 1.5562108755111694
+Epoch: 17 Accuracy: tensor(50)
+Epoch: 18 Total Loss: 15.690947532653809 Last batch Loss: 1.4738874435424805
+Epoch: 18 Accuracy: tensor(50)
+Epoch: 19 Total Loss: 15.877626419067383 Last batch Loss: 1.7581541538238525
+Epoch: 19 Accuracy: tensor(51)
+Epoch: 20 Total Loss: 15.225812911987305 Last batch Loss: 1.6869539022445679
+Epoch: 20 Accuracy: tensor(40)
+Epoch: 21 Total Loss: 16.03943634033203 Last batch Loss: 1.7076153755187988
+Epoch: 21 Accuracy: tensor(56)
+Epoch: 22 Total Loss: 15.122770309448242 Last batch Loss: 1.6796307563781738
+Epoch: 22 Accuracy: tensor(37)
+Epoch: 23 Total Loss: 15.841852188110352 Last batch Loss: 1.9453438520431519
+Epoch: 23 Accuracy: tensor(50)
+Epoch: 24 Total Loss: 15.674751281738281 Last batch Loss: 1.5648884773254395
+Epoch: 24 Accuracy: tensor(50)
+Epoch: 25 Total Loss: 16.206972122192383 Last batch Loss: 1.904539704322815
+Epoch: 25 Accuracy: tensor(56)
+Epoch: 26 Total Loss: 16.406431198120117 Last batch Loss: 1.8775134086608887
+Epoch: 26 Accuracy: tensor(40)
+Epoch: 27 Total Loss: 16.01561737060547 Last batch Loss: 1.9573792219161987
+Epoch: 27 Accuracy: tensor(50)
+Epoch: 28 Total Loss: 15.567614555358887 Last batch Loss: 1.9490101337432861
 Epoch: 28 Accuracy: tensor(53)
-Epoch: 29 Total Loss: tensor(2632.6392) Last batch Loss: tensor(1.0218)
-Epoch: 29 Accuracy: tensor(60)
-Epoch: 30 Total Loss: tensor(2570.4514) Last batch Loss: tensor(1.1903)
-Epoch: 30 Accuracy: tensor(60)
-Epoch: 31 Total Loss: tensor(2490.6387) Last batch Loss: tensor(0.9438)
-Epoch: 31 Accuracy: tensor(67)
-Epoch: 32 Total Loss: tensor(2475.0571) Last batch Loss: tensor(1.3529)
-Epoch: 32 Accuracy: tensor(64)
-Epoch: 33 Total Loss: tensor(2459.4075) Last batch Loss: tensor(1.0502)
-Epoch: 33 Accuracy: tensor(60)
-Epoch: 34 Total Loss: tensor(2453.5164) Last batch Loss: tensor(0.9177)
-Epoch: 34 Accuracy: tensor(65)
-Epoch: 35 Total Loss: tensor(2441.2957) Last batch Loss: tensor(1.1599)
-Epoch: 35 Accuracy: tensor(59)
-Epoch: 36 Total Loss: tensor(2435.7434) Last batch Loss: tensor(1.1495)
-Epoch: 36 Accuracy: tensor(59)
-Epoch: 37 Total Loss: tensor(2425.8723) Last batch Loss: tensor(0.9244)
-Epoch: 37 Accuracy: tensor(56)
-Epoch: 38 Total Loss: tensor(2421.3916) Last batch Loss: tensor(1.0925)
-Epoch: 38 Accuracy: tensor(60)
-Epoch: 39 Total Loss: tensor(2415.5999) Last batch Loss: tensor(1.2244)
-Epoch: 39 Accuracy: tensor(67)
-Epoch: 40 Total Loss: tensor(2411.2598) Last batch Loss: tensor(1.0479)
-Epoch: 40 Accuracy: tensor(68)
-Epoch: 41 Total Loss: tensor(2407.4126) Last batch Loss: tensor(0.9929)
-Epoch: 41 Accuracy: tensor(60)
-Epoch: 42 Total Loss: tensor(2400.4634) Last batch Loss: tensor(0.9631)
-Epoch: 42 Accuracy: tensor(71)
-Epoch: 43 Total Loss: tensor(2397.9236) Last batch Loss: tensor(1.1580)
-Epoch: 43 Accuracy: tensor(65)
-Epoch: 44 Total Loss: tensor(2390.8203) Last batch Loss: tensor(0.9743)
-Epoch: 44 Accuracy: tensor(67)
-Epoch: 45 Total Loss: tensor(2385.1836) Last batch Loss: tensor(1.1674)
-Epoch: 45 Accuracy: tensor(64)
-Epoch: 46 Total Loss: tensor(2380.2134) Last batch Loss: tensor(1.5289)
-Epoch: 46 Accuracy: tensor(57)
-Epoch: 47 Total Loss: tensor(2378.0984) Last batch Loss: tensor(1.0251)
-Epoch: 47 Accuracy: tensor(70)
-Epoch: 48 Total Loss: tensor(2370.9441) Last batch Loss: tensor(1.2608)
-Epoch: 48 Accuracy: tensor(64)
-Epoch: 49 Total Loss: tensor(2373.2253) Last batch Loss: tensor(1.0005)
-Epoch: 49 Accuracy: tensor(65)
-Epoch: 50 Total Loss: tensor(2365.5652) Last batch Loss: tensor(1.2912)
-Epoch: 50 Accuracy: tensor(64)
-Epoch: 51 Total Loss: tensor(2365.9146) Last batch Loss: tensor(1.6110)
-Epoch: 51 Accuracy: tensor(64)
-Epoch: 52 Total Loss: tensor(2361.5852) Last batch Loss: tensor(0.8676)
-Epoch: 52 Accuracy: tensor(65)
-Epoch: 53 Total Loss: tensor(2361.6206) Last batch Loss: tensor(0.7995)
-Epoch: 53 Accuracy: tensor(65)
-Epoch: 54 Total Loss: tensor(2355.8008) Last batch Loss: tensor(1.0352)
-Epoch: 54 Accuracy: tensor(68)
-Epoch: 55 Total Loss: tensor(2355.0234) Last batch Loss: tensor(1.0761)
-Epoch: 55 Accuracy: tensor(59)
-Epoch: 56 Total Loss: tensor(2352.2764) Last batch Loss: tensor(0.9185)
-Epoch: 56 Accuracy: tensor(68)
-Epoch: 57 Total Loss: tensor(2346.3662) Last batch Loss: tensor(1.1628)
-Epoch: 57 Accuracy: tensor(67)
-Epoch: 58 Total Loss: tensor(2342.2083) Last batch Loss: tensor(1.0156)
-Epoch: 58 Accuracy: tensor(65)
-Epoch: 59 Total Loss: tensor(2347.4490) Last batch Loss: tensor(0.7531)
-Epoch: 59 Accuracy: tensor(59)
-Epoch: 60 Total Loss: tensor(2343.4158) Last batch Loss: tensor(1.2461)
-Epoch: 60 Accuracy: tensor(60)
-Epoch: 61 Total Loss: tensor(2337.6780) Last batch Loss: tensor(0.9980)
-Epoch: 61 Accuracy: tensor(59)
-Epoch: 62 Total Loss: tensor(2341.0195) Last batch Loss: tensor(1.3404)
-Epoch: 62 Accuracy: tensor(65)
-Epoch: 63 Total Loss: tensor(2336.8577) Last batch Loss: tensor(0.8486)
-Epoch: 63 Accuracy: tensor(62)
-Epoch: 64 Total Loss: tensor(2331.0737) Last batch Loss: tensor(1.5276)
-Epoch: 64 Accuracy: tensor(71)
-Epoch: 65 Total Loss: tensor(2332.0991) Last batch Loss: tensor(0.8679)
-Epoch: 65 Accuracy: tensor(71)
-Epoch: 66 Total Loss: tensor(2329.8005) Last batch Loss: tensor(1.1027)
-Epoch: 66 Accuracy: tensor(57)
-Epoch: 67 Total Loss: tensor(2326.7695) Last batch Loss: tensor(1.2162)
-Epoch: 67 Accuracy: tensor(73)
-Epoch: 68 Total Loss: tensor(2324.5322) Last batch Loss: tensor(0.9653)
-Epoch: 68 Accuracy: tensor(60)
-Epoch: 69 Total Loss: tensor(2321.0989) Last batch Loss: tensor(0.8872)
-Epoch: 69 Accuracy: tensor(62)
-Epoch: 70 Total Loss: tensor(2320.7080) Last batch Loss: tensor(1.3118)
-Epoch: 70 Accuracy: tensor(64)
-Epoch: 71 Total Loss: tensor(2324.4182) Last batch Loss: tensor(1.1255)
-Epoch: 71 Accuracy: tensor(71)
-Epoch: 72 Total Loss: tensor(2316.9480) Last batch Loss: tensor(0.9274)
-Epoch: 72 Accuracy: tensor(57)
-Epoch: 73 Total Loss: tensor(2314.3269) Last batch Loss: tensor(0.9124)
-Epoch: 73 Accuracy: tensor(64)
-Epoch: 74 Total Loss: tensor(2312.5010) Last batch Loss: tensor(0.9338)
-Epoch: 74 Accuracy: tensor(70)
-Epoch: 75 Total Loss: tensor(2314.6560) Last batch Loss: tensor(1.1910)
-Epoch: 75 Accuracy: tensor(60)
-Epoch: 76 Total Loss: tensor(2310.0635) Last batch Loss: tensor(0.8765)
-Epoch: 76 Accuracy: tensor(62)
-Epoch: 77 Total Loss: tensor(2307.9683) Last batch Loss: tensor(0.9937)
-Epoch: 77 Accuracy: tensor(68)
-Epoch: 78 Total Loss: tensor(2308.9167) Last batch Loss: tensor(1.0983)
-Epoch: 78 Accuracy: tensor(70)
-Epoch: 79 Total Loss: tensor(2305.6204) Last batch Loss: tensor(1.0072)
-Epoch: 79 Accuracy: tensor(62)
-Epoch: 80 Total Loss: tensor(2302.1536) Last batch Loss: tensor(0.9882)
-Epoch: 80 Accuracy: tensor(64)
-Epoch: 81 Total Loss: tensor(2306.2917) Last batch Loss: tensor(0.9545)
-Epoch: 81 Accuracy: tensor(73)
-Epoch: 82 Total Loss: tensor(2301.0081) Last batch Loss: tensor(0.9216)
-Epoch: 82 Accuracy: tensor(67)
-Epoch: 83 Total Loss: tensor(2303.7427) Last batch Loss: tensor(1.1526)
-Epoch: 83 Accuracy: tensor(60)
-Epoch: 84 Total Loss: tensor(2298.1035) Last batch Loss: tensor(0.8403)
-Epoch: 84 Accuracy: tensor(68)
-Epoch: 85 Total Loss: tensor(2298.6294) Last batch Loss: tensor(1.1631)
-Epoch: 85 Accuracy: tensor(76)
-Epoch: 86 Total Loss: tensor(2299.2295) Last batch Loss: tensor(0.9966)
-Epoch: 86 Accuracy: tensor(70)
-Epoch: 87 Total Loss: tensor(2299.7090) Last batch Loss: tensor(1.0648)
-Epoch: 87 Accuracy: tensor(75)
-Epoch: 88 Total Loss: tensor(2297.6091) Last batch Loss: tensor(1.2562)
-Epoch: 88 Accuracy: tensor(67)
-Epoch: 89 Total Loss: tensor(2293.9663) Last batch Loss: tensor(1.1428)
-Epoch: 89 Accuracy: tensor(75)
-Epoch: 90 Total Loss: tensor(2294.8149) Last batch Loss: tensor(1.0028)
-Epoch: 90 Accuracy: tensor(62)
-Epoch: 91 Total Loss: tensor(2295.0295) Last batch Loss: tensor(1.0112)
-Epoch: 91 Accuracy: tensor(67)
-Epoch: 92 Total Loss: tensor(2290.1697) Last batch Loss: tensor(1.5876)
-Epoch: 92 Accuracy: tensor(60)
-Epoch: 93 Total Loss: tensor(2285.9241) Last batch Loss: tensor(1.2335)
-Epoch: 93 Accuracy: tensor(62)
-Epoch: 94 Total Loss: tensor(2286.4355) Last batch Loss: tensor(1.0213)
-Epoch: 94 Accuracy: tensor(70)
-Epoch: 95 Total Loss: tensor(2285.5884) Last batch Loss: tensor(1.0119)
-Epoch: 95 Accuracy: tensor(67)
-Epoch: 96 Total Loss: tensor(2283.1670) Last batch Loss: tensor(1.1090)
-Epoch: 96 Accuracy: tensor(68)
-Epoch: 97 Total Loss: tensor(2281.9976) Last batch Loss: tensor(0.7941)
-Epoch: 97 Accuracy: tensor(67)
-Epoch: 98 Total Loss: tensor(2282.7200) Last batch Loss: tensor(0.8767)
-Epoch: 98 Accuracy: tensor(65)
-Epoch: 99 Total Loss: tensor(2281.7617) Last batch Loss: tensor(0.7111)
-Epoch: 99 Accuracy: tensor(73)
-Epoch: 100 Total Loss: tensor(2281.7734) Last batch Loss: tensor(0.9845)
-Epoch: 100 Accuracy: tensor(59)
+Epoch: 29 Total Loss: 15.812145233154297 Last batch Loss: 1.7327936887741089
+Epoch: 29 Accuracy: tensor(50)
+Epoch: 30 Total Loss: 16.188365936279297 Last batch Loss: 1.9295814037322998
+Epoch: 30 Accuracy: tensor(51)
+Epoch: 31 Total Loss: 16.319076538085938 Last batch Loss: 1.8058393001556396
+Epoch: 31 Accuracy: tensor(51)
+Epoch: 32 Total Loss: 14.989118576049805 Last batch Loss: 1.9884954690933228
+Epoch: 32 Accuracy: tensor(51)
+Epoch: 33 Total Loss: 15.878223419189453 Last batch Loss: 1.6868818998336792
+Epoch: 33 Accuracy: tensor(48)
+Epoch: 34 Total Loss: 15.887467384338379 Last batch Loss: 1.7203748226165771
+Epoch: 34 Accuracy: tensor(57)
+Epoch: 35 Total Loss: 15.011363983154297 Last batch Loss: 1.8918217420578003
+Epoch: 35 Accuracy: tensor(43)
+Epoch: 36 Total Loss: 16.162675857543945 Last batch Loss: 1.4972567558288574
+Epoch: 36 Accuracy: tensor(50)
+Epoch: 37 Total Loss: 14.453634262084961 Last batch Loss: 1.5454251766204834
+Epoch: 37 Accuracy: tensor(65)
+Epoch: 38 Total Loss: 16.034311294555664 Last batch Loss: 1.7492835521697998
+Epoch: 38 Accuracy: tensor(45)
+Epoch: 39 Total Loss: 15.172560691833496 Last batch Loss: 1.7551268339157104
+Epoch: 39 Accuracy: tensor(48)
+Epoch: 40 Total Loss: 16.527244567871094 Last batch Loss: 1.6911276578903198
+Epoch: 40 Accuracy: tensor(60)
+Epoch: 41 Total Loss: 16.260313034057617 Last batch Loss: 1.7926474809646606
+Epoch: 41 Accuracy: tensor(43)
+Epoch: 42 Total Loss: 16.308778762817383 Last batch Loss: 1.7427068948745728
+Epoch: 42 Accuracy: tensor(51)
+Epoch: 43 Total Loss: 16.656919479370117 Last batch Loss: 1.914276361465454
+Epoch: 43 Accuracy: tensor(53)
+Epoch: 44 Total Loss: 16.00226593017578 Last batch Loss: 1.8936232328414917
+Epoch: 44 Accuracy: tensor(53)
+Epoch: 45 Total Loss: 15.548709869384766 Last batch Loss: 1.3692078590393066
+Epoch: 45 Accuracy: tensor(45)
+Epoch: 46 Total Loss: 15.752678871154785 Last batch Loss: 1.5730966329574585
+Epoch: 46 Accuracy: tensor(40)
+Epoch: 47 Total Loss: 15.60575008392334 Last batch Loss: 1.6412074565887451
+Epoch: 47 Accuracy: tensor(43)
+Epoch: 48 Total Loss: 15.928611755371094 Last batch Loss: 1.6928021907806396
+Epoch: 48 Accuracy: tensor(62)
+Epoch: 49 Total Loss: 15.872440338134766 Last batch Loss: 1.8169347047805786
+Epoch: 49 Accuracy: tensor(51)
+Epoch: 50 Total Loss: 15.978336334228516 Last batch Loss: 1.8592960834503174
+Epoch: 50 Accuracy: tensor(53)
+Epoch: 51 Total Loss: 15.99530029296875 Last batch Loss: 2.042856216430664
+Epoch: 51 Accuracy: tensor(50)
+Epoch: 52 Total Loss: 15.85087776184082 Last batch Loss: 1.7129113674163818
+Epoch: 52 Accuracy: tensor(46)
+Epoch: 53 Total Loss: 15.297210693359375 Last batch Loss: 1.934150218963623
+Epoch: 53 Accuracy: tensor(46)
+Epoch: 54 Total Loss: 16.31522560119629 Last batch Loss: 1.86026930809021
+Epoch: 54 Accuracy: tensor(60)
+Epoch: 55 Total Loss: 15.49091911315918 Last batch Loss: 1.8074250221252441
+Epoch: 55 Accuracy: tensor(43)
+Epoch: 56 Total Loss: 15.135220527648926 Last batch Loss: 1.4889978170394897
+Epoch: 56 Accuracy: tensor(43)
+Epoch: 57 Total Loss: 15.930840492248535 Last batch Loss: 1.628169298171997
+Epoch: 57 Accuracy: tensor(53)
+Epoch: 58 Total Loss: 15.371442794799805 Last batch Loss: 1.8362703323364258
+Epoch: 58 Accuracy: tensor(53)
+Epoch: 59 Total Loss: 16.333431243896484 Last batch Loss: 2.0429251194000244
+Epoch: 59 Accuracy: tensor(56)
+Epoch: 60 Total Loss: 15.335893630981445 Last batch Loss: 1.8813344240188599
+Epoch: 60 Accuracy: tensor(53)
+Epoch: 61 Total Loss: 16.38854217529297 Last batch Loss: 1.6921406984329224
+Epoch: 61 Accuracy: tensor(48)
+Epoch: 62 Total Loss: 15.16152572631836 Last batch Loss: 1.925251841545105
+Epoch: 62 Accuracy: tensor(50)
+Epoch: 63 Total Loss: 15.548980712890625 Last batch Loss: 1.5194401741027832
+Epoch: 63 Accuracy: tensor(40)
+Epoch: 64 Total Loss: 15.603429794311523 Last batch Loss: 1.7319705486297607
+Epoch: 64 Accuracy: tensor(42)
+Epoch: 65 Total Loss: 16.609619140625 Last batch Loss: 2.2047204971313477
+Epoch: 65 Accuracy: tensor(45)
+Epoch: 66 Total Loss: 15.621355056762695 Last batch Loss: 1.7305262088775635
+Epoch: 66 Accuracy: tensor(46)
+Epoch: 67 Total Loss: 16.218238830566406 Last batch Loss: 1.8846373558044434
+Epoch: 67 Accuracy: tensor(54)
+Epoch: 68 Total Loss: 15.593002319335938 Last batch Loss: 1.7037205696105957
+Epoch: 68 Accuracy: tensor(50)
+Epoch: 69 Total Loss: 16.061199188232422 Last batch Loss: 1.4966424703598022
+Epoch: 69 Accuracy: tensor(46)
+Epoch: 70 Total Loss: 14.513740539550781 Last batch Loss: 1.7847894430160522
+Epoch: 70 Accuracy: tensor(50)
+Epoch: 71 Total Loss: 15.51651382446289 Last batch Loss: 1.6875438690185547
+Epoch: 71 Accuracy: tensor(32)
+Epoch: 72 Total Loss: 15.777474403381348 Last batch Loss: 2.041275978088379
+Epoch: 72 Accuracy: tensor(40)
+Epoch: 73 Total Loss: 15.390534400939941 Last batch Loss: 1.762391448020935
+Epoch: 73 Accuracy: tensor(45)
+Epoch: 74 Total Loss: 15.55302619934082 Last batch Loss: 1.4961282014846802
+Epoch: 74 Accuracy: tensor(46)
+Epoch: 75 Total Loss: 16.05227279663086 Last batch Loss: 1.9220283031463623
+Epoch: 75 Accuracy: tensor(50)
+Epoch: 76 Total Loss: 14.818382263183594 Last batch Loss: 1.7038289308547974
+Epoch: 76 Accuracy: tensor(51)
+Epoch: 77 Total Loss: 16.355573654174805 Last batch Loss: 1.8571869134902954
+Epoch: 77 Accuracy: tensor(50)
+Epoch: 78 Total Loss: 15.662065505981445 Last batch Loss: 1.627014398574829
+Epoch: 78 Accuracy: tensor(50)
+Epoch: 79 Total Loss: 16.178251266479492 Last batch Loss: 1.5195043087005615
+Epoch: 79 Accuracy: tensor(51)
+Epoch: 80 Total Loss: 15.105320930480957 Last batch Loss: 1.5797398090362549
+Epoch: 80 Accuracy: tensor(62)
+Epoch: 81 Total Loss: 15.222694396972656 Last batch Loss: 1.741303563117981
+Epoch: 81 Accuracy: tensor(42)
+Epoch: 82 Total Loss: 16.07830810546875 Last batch Loss: 1.911048173904419
+Epoch: 82 Accuracy: tensor(42)
+Epoch: 83 Total Loss: 15.590818405151367 Last batch Loss: 1.9156625270843506
+Epoch: 83 Accuracy: tensor(50)
+Epoch: 84 Total Loss: 15.981563568115234 Last batch Loss: 1.862229824066162
+Epoch: 84 Accuracy: tensor(42)
+Epoch: 85 Total Loss: 15.808890342712402 Last batch Loss: 1.8913030624389648
+Epoch: 85 Accuracy: tensor(53)
+Epoch: 86 Total Loss: 15.654658317565918 Last batch Loss: 1.8122609853744507
+Epoch: 86 Accuracy: tensor(53)
+Epoch: 87 Total Loss: 16.078514099121094 Last batch Loss: 1.7702209949493408
+Epoch: 87 Accuracy: tensor(48)
+Epoch: 88 Total Loss: 14.785770416259766 Last batch Loss: 1.7264970541000366
+Epoch: 88 Accuracy: tensor(51)
+Epoch: 89 Total Loss: 15.725213050842285 Last batch Loss: 1.4505212306976318
+Epoch: 89 Accuracy: tensor(51)
+Epoch: 90 Total Loss: 16.24397087097168 Last batch Loss: 1.6012990474700928
+Epoch: 90 Accuracy: tensor(46)
+Epoch: 91 Total Loss: 15.328787803649902 Last batch Loss: 1.712437629699707
+Epoch: 91 Accuracy: tensor(54)
+Epoch: 92 Total Loss: 16.05643081665039 Last batch Loss: 1.7692463397979736
+Epoch: 92 Accuracy: tensor(53)
+Epoch: 93 Total Loss: 15.039942741394043 Last batch Loss: 1.6579121351242065
+Epoch: 93 Accuracy: tensor(45)
+Epoch: 94 Total Loss: 15.79541015625 Last batch Loss: 1.6372524499893188
+Epoch: 94 Accuracy: tensor(51)
+Epoch: 95 Total Loss: 16.807373046875 Last batch Loss: 1.7428152561187744
+Epoch: 95 Accuracy: tensor(46)
+Epoch: 96 Total Loss: 16.461896896362305 Last batch Loss: 2.0775363445281982
+Epoch: 96 Accuracy: tensor(42)
+Epoch: 97 Total Loss: 15.176777839660645 Last batch Loss: 1.693562626838684
+Epoch: 97 Accuracy: tensor(46)
+Epoch: 98 Total Loss: 16.3328800201416 Last batch Loss: 1.6744521856307983
+Epoch: 98 Accuracy: tensor(50)
+Epoch: 99 Total Loss: 15.602462768554688 Last batch Loss: 1.7210097312927246
+Epoch: 99 Accuracy: tensor(48)
+Epoch: 100 Total Loss: 16.1768798828125 Last batch Loss: 1.6080846786499023
+Epoch: 100 Accuracy: tensor(56)
