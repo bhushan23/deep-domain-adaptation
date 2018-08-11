@@ -32,18 +32,18 @@ classify_net = ClassifierNet().type(dtype)
 gen_net = BaseSimpleFeatureNet().type(dtype)
 dis_net = Discriminator().type(dtype)
 
-classify_net.load_state_dict(torch.load('saved_models/l_net.pkl'))
-gen_net.load_state_dict(torch.load('saved_models/g_net.pkl'))
-c_cpu = classify.cpu()
-g_cpu = gen_net.cpu()
+#classify_net.load_state_dict(torch.load('saved_models/l_net.pkl'))
+#gen_net.load_state_dict(torch.load('saved_models/g_net.pkl'))
+#c_cpu = classify.cpu()
+#g_cpu = gen_net.cpu()
 
-torch.save(c_cpu.state_dict(), output_path+'saved_models/c_cpu__net.pkl')
-torch.save(g_cpu.state_dict(), output_path+'saved_models/g_cpu_net.pkl')
+#torch.save(c_cpu.state_dict(), output_path+'saved_models/c_cpu__net.pkl')
+#torch.save(g_cpu.state_dict(), output_path+'saved_models/g_cpu_net.pkl')
 
 if test == True:
     test_data_loader = load_syn2real_data(test_data_path, shuffle = False, batch_size = batch_size)
-    classify_net.load_state_dict(torch.load('saved_models/l_net.pkl'))
-    gen_net.load_state_dict(torch.load('saved_models/g_net.pkl'))
+    classify_net.load_state_dict(torch.load('saved_models/c__cpu_net.pkl'))
+    gen_net.load_state_dict(torch.load('saved_models/g_cpu_net.pkl'))
     test(gen_net, classify_net, test_data_loader)
 else:
     syn_data_loader = load_syn2real_data(syn_data_path, syn_label_path, shuffle = True, batch_size = batch_size)

@@ -11,14 +11,15 @@ if torch.cuda.is_available():
 def test(g_net, c_net, train_data, batch_size = 64, output_file='./test_results.txt'):
     prediction = torch.tensor([])
     for data in train_data:
-        s = data[0]
+        s = data
         mini_batch_size = s.shape[0]
         s = var(s).type(dtype)
-        l = var(torch.LongTensor(l)) #.type(torch.LongTensor)
         output = g_net(s)
         output = c_net(output)
-        prediction.append(output.cpu().data)
-    print(prediction.shape)  
+        prediction = torch.cat((prediction, output))
+    print(prediction.shape)
+    return prediction
+
 
 def feature_net_train(f_net, c_net, train_data, lr = 0.001, batch_size = 64, num_epochs = 5, output_path = './', validate = True):
     f_opt = torch.optim.Adam(f_net.parameters(), lr = lr)
