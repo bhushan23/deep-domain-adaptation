@@ -38,7 +38,10 @@ class Custom_Test_DataLoader(Dataset):
     def __init__(self, root_dir, labels, transform = None):
         self.root_dir = root_dir
         annotations = pd.read_csv(labels, header=None, names=['Class'])
+        #with open(labels) as f:
+        #    lines = f.read().splitlines()
         self.images = annotations['Class'].tolist()
+        annotations['Class'].tolist()
         self.transform = transform
 
     def __getitem__(self, index):
@@ -50,18 +53,18 @@ class Custom_Test_DataLoader(Dataset):
         return image
 
     def __len__(self):
-        return len(self.labels)
+        return len(self.images)
 
-def load_syn2real_data(path, label_file = None, shuffle = True, batch_size = 64):
+def load_syn2real_data(path, label_file, shuffle = True, batch_size = 64, is_test = False):
     transform = transforms.Compose([
-                transforms.Resize((64, 64)),       
+                transforms.Resize((64, 64)),
                 transforms.ToTensor(),
                 transforms.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5))
                 ])
-    if label_file != None:
+    if is_test == False:
         data = Custom_DataLoader(path, label_file, transform)
     else:
         data = Custom_Test_DataLoader(path, label_file, transform)
     data_loader = DataLoader(data, shuffle = shuffle, batch_size = batch_size)
-    
+
     return data_loader 
